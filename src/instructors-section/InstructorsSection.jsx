@@ -7,7 +7,7 @@ function InstructorsSection({details}) {
     const {visible_instructors: instructors} = details;
     return (
         <main className={styles.mainContainer}>
-            <p className={styles.sectionTitle}>Instructors</p>
+            <p className={ styles.sectionTitle}>Instructors</p>
             <List>
                 {instructors.map((instructor, idx) => {
                     return (
